@@ -1,6 +1,6 @@
-FROM lucacri/laravelcaddy:latest
+FROM ttaranto/docker-nginx-php7:latest
 
-MAINTAINER "Kato"
+MAINTAINER "[YourName]"
 
 RUN mkdir -p /var/www
 COPY . /var/www
